@@ -29,3 +29,6 @@ android.ndk = 25b
 
 # (list) Permissions
 android.permissions = INTERNET
+
+# (bool) Indicate if the application should accept Android SDK licenses
+android.accept_sdk_license = True
