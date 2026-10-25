@@ -15,6 +15,9 @@ source.dir = .
 # (list) Application requirements
 requirements = python3,kivy,android
 
+# (str) Version of your application
+version = 0.1
+
 # (int) Android API level to target
 android.api = 33
 
