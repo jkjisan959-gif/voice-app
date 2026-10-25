@@ -9,7 +9,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Build with Buildozer
-        uses: kivy/buildozer-action@master
+        uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
           command: buildozer android debug
